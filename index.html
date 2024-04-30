@@ -189,7 +189,7 @@
             top: 300px;
             left: 300px;
             width: 200px;
-            padding: 20px;
+            padding: 20.5px;
             border-radius: 50px;
             border: none;
             cursor: pointer;
@@ -359,20 +359,22 @@
 
         }
 
-        div.features div.feat img {
-            /* position: absolute; */
-            margin-left: 10px;
-            margin-top: 45px;
+        div.feat div.border {
             background-color: rgb(0, 138, 248);
+            width: 90px;
+            height: 90px;
+            text-align: center;
             border-radius: 50px;
-            padding: 25px;
-            display: inline-block;
-            border-radius: 50%;
-            line-height: 90px;
-
+            margin: auto;
+            margin-top: 40px;
         }
 
-        div.features div.feat img:hover {
+        div.features div.feat div.border img {
+            margin-top: 24px;
+            width: 44px; height: 44px;
+        }
+
+        div.features div.feat div.border:hover {
             background-color: rgb(238, 98, 107);
         }
 
@@ -388,7 +390,7 @@
         /* Small Devices*/
         @media only screen and (max-width: 480px) {
             div.features {
-                top: 0px;
+                top: 10px;
                 left: 50px;
                 flex-direction: column;
                 justify-content: flex-start;
@@ -1217,19 +1219,27 @@
     <!-- ==================FEATURES=================== -->
     <div class="features">
         <div class="feat">
-            <img src="./images/featured-01.png" alt="benefits">
+            <div class="border">
+                <img src="./images/featured-01.png" alt="benefits">
+            </div>
             <h4>FREE STORAGE</h4>
         </div>
         <div class="feat">
-            <img src="./images/featured-02.png" alt="benefits">
+            <div class="border">
+                <img src="./images/featured-02.png" alt="benefits">
+            </div>
             <h4>USER MORE</h4>
         </div>
         <div class="feat">
-            <img src="./images/featured-03.png" alt="benefits">
+            <div class="border">
+                <img src="./images/featured-03.png" alt="benefits">
+            </div>
             <h4>REPLY READY</h4>
         </div>
         <div class="feat">
-            <img src="./images/featured-04.png" alt="benefits" style="width: 50px; height: 50px;">
+            <div class="border">
+                <img src="./images/featured-04.png" alt="benefits" style="width: 50px; height: 50px;">
+            </div>
             <h4>EASY LAYOUT</h4>
         </div>
     </div>
