@@ -233,7 +233,7 @@ form input[type="submit"]:hover {
     top: 370px;
     padding: 15px;
     font-size: 12px;
-    width: 220px;
+    width: 240px;
   }
 
   form input[type="submit"] {
@@ -464,7 +464,7 @@ h3.trending {
 /* ------------------GAMES CATALOG------------------- */
 
 div.trending {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
   flex-direction: row;
   justify-content: start;
