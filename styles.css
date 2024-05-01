@@ -336,7 +336,7 @@ div.features {
   align-content: space-between;
   gap: 25px;
   position: relative;
-  top: 500px;
+  top: -100px;
   left: 110px;
   width: 1250px;
   height: 240px;
